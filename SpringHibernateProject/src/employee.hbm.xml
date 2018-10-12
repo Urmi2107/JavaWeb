@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+  
+<hibernate-mapping>  
+<class name="com.capgemini.pojo.Employee" table="emptbl1">  
+          <id name="empId">  
+          <generator class="assigned"></generator>  
+          </id>  
+            
+          <property name="empName"></property>
+          <property name="empDept"></property>  
+          <property name="empSalary"></property>  
+</class>  
+            
+</hibernate-mapping>  
